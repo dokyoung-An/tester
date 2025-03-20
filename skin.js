@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: ????VR-SKIN.ggsk
-// Generated 2025-03-20T14:38:43
+// Generated 2025-03-20T15:46:24
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_aptInfo', 2, false, { ignoreInState: 0  });
@@ -13450,7 +13450,7 @@ function pano2vrSkin(player,base) {
 	me.addSkin();
 	var style = document.createElement('style');
 	style.type = 'text/css';
-	style.appendChild(document.createTextNode('@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&display=swap"); .ggskin { font-family: Mukta,Verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: normal; color:#393939; } .ggmarkdown p,.ggmarkdown h1,.ggmarkdown h2,.ggmarkdown h3,.ggmarkdown h4 { margin-top: 0px } .ggmarkdown { white-space:normal } .noto-sans-kr { font-family: "Noto Sans KR", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; }'));
+	style.appendChild(document.createTextNode('@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&display=swap"); .ggskin { font-family: Mukta,Verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: normal; color:#393939; text-rendering: optimizeLegibility; /* 부드러운 렌더링 적용 */ -webkit-font-smoothing: antialiased; /* 웹킷 기반 브라우저 (Chrome, Safari) 부드러운 글꼴 */ -moz-osx-font-smoothing: grayscale; /* macOS 최적화 */ } .ggmarkdown p,.ggmarkdown h1,.ggmarkdown h2,.ggmarkdown h3,.ggmarkdown h4 { margin-top: 0px } .ggmarkdown { white-space:normal } .noto-sans-kr { font-family: "Noto Sans KR", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; }'));
 	document.head.appendChild(style);
 	document.addEventListener('keyup', function(e) {
 		if (e.key === 'Enter' || e.key === ' ') {
